@@ -17,7 +17,7 @@ Name = eli_roth.
 ```
 
 ## 4. Quais os atores ou atrizes do filme `the_hunger_games`?
-Neste exercício é o mesmo raciocínio do anterior, porém com a adição de ` ; ` que funiona como um "ou" e `()` para incluir `actor()` e `actress()` na mesma relanção de `movie()`.
+Neste exercício é o mesmo raciocínio do anterior, porém com a adição de ` ; ` que funiona como um "ou" e `()` para incluir `actor()` e `actress()` na mesma relação de `movie()`.
 
 ```
 ?- movie(Id, the_hunger_games, _), (actor(Id, Name); actress(Id, Name)).
